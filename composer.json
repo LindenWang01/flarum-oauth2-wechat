@@ -1,0 +1,34 @@
+{
+    "name": "ryccheen/flarum-oauth2-wechat",
+    "description": "Wechat OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RycCheen",
+            "email": "xls9009@163.com",
+            "homepage": "https://blog.csdn.net/xls6006"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "wechat"
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "~1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RycCheen\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
